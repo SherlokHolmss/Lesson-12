@@ -45,6 +45,7 @@ function checkEvenNumbers(){
         }
     }
     alert(`Сума парних чисел на цьому проміжку дорівнює - ${sum}`);
+    sum = 0;
 }
 minBtn.addEventListener('click', getMinNumber);
 maxBtn.addEventListener('click', getMaxNumber);
