@@ -44,7 +44,7 @@ function checkEvenNumbers(){
             sum += i;
         }
     }
-    console.log(sum);
+    alert(`Сума парних чисел на цьому проміжку дорівнює - ${sum}`);
 }
 minBtn.addEventListener('click', getMinNumber);
 maxBtn.addEventListener('click', getMaxNumber);
